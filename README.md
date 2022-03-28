@@ -1,5 +1,6 @@
 # Dante-Star
 <br/>
+
 ## What is Dante Star
 
 Dante Star is a first year project at Epitech. The goal is to generate a maze and to solve it
@@ -10,12 +11,12 @@ Types of mazes generated :
 <br/><br/>
 ## How to use
 
-Clone the repository :
-  |Git clone git@github.com:Tomi-Tom/Dante-Star.git|<br/>
-Go at the root and launch the tester.sh :
-  |./tester <Width> <Height> [perfect]|<br/>
-For the graphical version, go in the bonus folder and launch the tester :
-  |./tester <Width> <Height> [perfect]|<br/>
+Clone the repository :<br/>
+  Git clone git@github.com:Tomi-Tom/Dante-Star.git|<br/><br/>
+Go at the root and launch the tester.sh :<br/>
+  ./tester <Width> <Height> [perfect]<br/><br/>
+For the graphical version, go in the bonus folder and launch the tester :<br/>
+  ./tester <Width> <Height> [perfect]<br/><br/>
 <br/><br/>
 ### Contributors
 
