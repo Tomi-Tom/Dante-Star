@@ -25,4 +25,4 @@ Height = the heght of the maze (exemple : 20)<br/>
 ### Contributors
 
  - <a href="https://github.com/Tomi-Tom">Tom Bariteau-Peter</a>
- - Léa Guillemard
+ - <a href="https://github.com/Steci">Léa Guillemard</a>
