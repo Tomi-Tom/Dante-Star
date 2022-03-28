@@ -14,12 +14,12 @@ Types of mazes generated :
 Clone the repository :<br/>
   Git clone git@github.com:Tomi-Tom/Dante-Star.git<br/><br/>
 Go at the root and launch the tester.sh :<br/>
-  ./tester <Width> <Height> [perfect]<br/><br/>
+  ./tester Width Height [perfect]<br/><br/>
 For the graphical version, go in the bonus folder and launch the tester :<br/>
-  ./tester <Width> <Height> [perfect]<br/><br/>
+  ./tester Width Height [perfect]<br/><br/>
 <br/><br/>
-<Width> = the width of the maze (exemple : 50)
-<Height> = the heght of the maze (exemple : 20)
+Width = the width of the maze (exemple : 50)<br/>
+Height = the heght of the maze (exemple : 20)<br/>
 [perfect] = if you wante a perfect maze, write the word "perfect"
 <br/><br/>
 ### Contributors
