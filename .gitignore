@@ -1,0 +1,6 @@
+*.o
+*.swp
+generator/generator
+solver/solver
+bonus/generator/generator
+bonus/solver/solver
