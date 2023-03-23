@@ -26,7 +26,7 @@ To test the project, run the tester binary in the project root with the followin
 ```
 - `width`: the width of the maze (in number of cells)
 - `height`: the height of the maze (in number of cells)
-- `perfect`: write 'perfect'to generate a perfect maze or nothing to make an imperfect
+- `perfect`: write 'perfect' to generate a perfect maze or nothing to make an imperfect
 
 ## Graphical version
 
