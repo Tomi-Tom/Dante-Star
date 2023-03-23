@@ -1,28 +1,47 @@
-# Dante-Star
-<br/>
+# Dante Star
 
-## What is Dante Star
+Dante Star is a project that allows generating and solving mazes. It offers the possibility to generate two types of mazes: perfect and imperfect.
 
-Dante Star is a first year project at Epitech. The goal is to generate a maze and to solve it
+## Installation
 
-Types of mazes generated :
- - Perfect Maze : a maze made of a unique path connecting every cell (or pathway). 
- - Imperfect Maze : a maze made of a path that may intersect itself (non unique path) or/and isolate a group of cells.
-<br/><br/>
-## How to use
+To install the project, you can clone it from the GitHub repository:
 
-Clone the repository :<br/>
-  Git clone git@github.com:Tomi-Tom/Dante-Star.git<br/><br/>
-Go at the root and launch the tester.sh :<br/>
-  ./tester Width Height [perfect]<br/><br/>
-For the graphical version, go in the bonus folder and launch the tester :<br/>
-  ./tester Width Height [perfect]<br/><br/>
-<br/><br/>
-Width = the width of the maze (exemple : 50)<br/>
-Height = the heght of the maze (exemple : 20)<br/>
-[perfect] = if you wante a perfect maze, write the word "perfect"
-<br/><br/>
-### Contributors
+```bash
+git clone https://github.com/your_username/dante-star.git
+```
+## Building
+
+The project uses a Makefile for its construction. To build the project, go to the root folder and run:
+
+```bash
+make
+```
+
+## Testing the project
+
+To test the project, run the tester binary in the project root with the following arguments:
+
+```bash
+./tester <width> <height> <perfect>
+```
+- `width`: the width of the maze (in number of cells)
+- `height`: the height of the maze (in number of cells)
+- `perfect`: write 'perfect'to generate a perfect maze or nothing to make an imperfect
+
+## Graphical version
+
+To access the graphical version of the project, run:
+
+```bash
+make bonus
+```
+
+Then, go to the bonus folder and run the tester binary with the same arguments as before.
+Maze description
+
+A maze starts at the top left and finishes at the bottom right. It consists of walls marked with `X` and free paths marked with `*`. The solution after solving the maze is marked with `o`
+
+## Contributors
 
  - <a href="https://github.com/Tomi-Tom">Tom Bariteau-Peter</a>
  - <a href="https://github.com/Steci">Léa Guillemard</a>
